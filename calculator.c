@@ -32,10 +32,13 @@ int main(){
 
     scanf("%i", &operation);
 
-    printf("A:\n");
-    scanf("%f", &a);
-    printf("B:\n");
-    scanf("%f", &b);
+    if(operation != 0){
+        printf("A:\n");
+        scanf("%f", &a);
+        printf("B:\n");
+        scanf("%f", &b);
+    }
+    
 
     switch(operation){
 
